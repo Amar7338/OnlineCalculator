@@ -1,0 +1,93 @@
+body
+{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJYjfi6YyA0p2jcMOWOI73IvgT4LAp1jDKxw&usqp=CAU");
+}
+
+h1
+{
+    color:rgb(247, 241, 241);
+    text-align: center;
+}
+#container
+{
+    border: 2px solid black;
+    width:1200px;
+    height:530px;
+    margin:5px auto;
+    padding:5px;
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("https://image.freepik.com/free-vector/poster-design-with-word-math-time-with-numbers-background_1308-42222.jpg");
+}
+#calculator
+{
+    border: 5px double red;
+    width:350px;
+    height:500px;
+    margin:10px auto;
+    padding:3px;
+    background-color: rgb(252, 140, 140);
+}
+#display
+{
+  width:310px;
+  height:100px;
+  text-align: right;
+  font-size: 25px;
+  font-weight: bolder;
+  padding: 10px 20px;
+  border:1px solid black;
+  color:saddlebrown
+}
+#keyboard
+{
+  width:330px;
+  height:380px;
+  padding-left: 20px;
+}
+.blank
+{
+    width:45px;
+    height:45px;
+    margin:15px 17px;
+    float:left;
+    border-radius: 50px;
+    border-width:0px;
+    font-size: 25px;
+    background-color: rgb(252, 140, 140);
+    font-style:italic;
+}
+.operator
+{
+    width:45px;
+    height:45px;
+    margin:15px 17px;
+    float:left;
+    border-radius: 50px;
+    font-size: 23px;
+    background-color:rgb(240, 109, 135);
+    font-style:italic;
+}
+.operator,.number
+{
+    cursor: pointer;
+}
+.number
+{
+    width:45px;
+    height:45px;
+    margin:15px 17px;
+    float:left;
+    border-radius: 50px;
+    font-size: 25px;
+    background-color: white;
+    font-style:italic;
+}
+.number:focus, .operator:focus, .blank:focus
+{
+    outline:0;
+}
+#output
+{
+    height:30px;
+    font-size: 30px;
+    color:black;
+}

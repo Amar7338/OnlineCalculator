@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title> Online Simple Calculator</title>
+     <link rel="stylesheet" href="styleCalculator.css">
+     <script src="calculatorScript.js"></script>
+    </head>
+    <body>
+        <h1>Online Simple Calculator</h1>
+      <div id=container>
+          <div id="calculator">
+            <div id=display>
+             <div id="output">
+              <p id="output-value"></p>
+             </div>
+             <div>
+                <p id="input-value"></p>
+             </div>
+            </div>
+            <div id=keyboard>
+              <button class="operator" id="clear" onclick="operatorCicked('clear')">C</button>
+              <button class="operator" id="backspace" onclick="operatorCicked('backspace')">CE</button>
+              <button class="operator" id="%" onclick="operatorCicked('%')">%</button>
+              <button class="operator" id="/" onclick="operatorCicked('/')">/</button>
+              <button class="number" id="7" onclick="numberCicked('7')">7</button>
+              <button class="number" id="8" onclick="numberCicked('8')">8</button>
+              <button class="number" id="9" onclick="numberCicked('9')">9</button>
+              <button class="operator" id="*" onclick="operatorCicked('*')">*</button>
+              <button class="number" id="4" onclick="numberCicked('4')">4</button>
+              <button class="number" id="5" onclick="numberCicked('5')">5</button>
+              <button class="number" id="6" onclick="numberCicked('6')">6</button>
+              <button class="operator" id="-" onclick="operatorCicked('-')">-</button>
+              <button class="number" id="1" onclick="numberCicked('1')">1</button>
+              <button class="number" id="2" onclick="numberCicked('2')">2</button>
+              <button class="number" id="3" onclick="numberCicked('3')">3</button>
+              <button class="operator" id="+" onclick="operatorCicked('+')">+</button>
+              <button class="blank" id="empty"></button>
+              <button class="number" id="0" onclick="numberCicked('0')">0</button>
+              <button class="blank" id="empty"></button>
+              <button class="operator" id="=" onclick="operatorCicked('=')">=</button>
+            </div>
+          </div>
+      </div>
+    </body>
+</html>
